@@ -30,7 +30,7 @@ public class ItemInteractListener implements Listener {
             {
                 if(itemInHand.getItemMeta().getDisplayName().equals("§3§lHome Teleporter"))
                 {
-                    p.teleport(p.getBedSpawnLocation() != null ? p.getBedSpawnLocation() : Bukkit.getWorld("world").getSpawnLocation());
+                    p.teleport(p.getBedSpawnLocation() != null ? p.getBedSpawnLocation() : Bukkit.getWorlds().get(0).getSpawnLocation());
                     e.setCancelled(true);
                 }
             }

@@ -24,7 +24,7 @@ public class PlayerMoveListener implements Listener {
     public void onMove(PlayerMoveEvent e)
     {
         Player p = e.getPlayer();
-        if(p.getWorld().getName().equals("world"))
+        if(p.getWorld() == Bukkit.getWorlds().get(0))
         {
             Block b = p.getWorld().getBlockAt(p.getLocation().getBlockX(), p.getLocation().getBlockY()-1, p.getLocation().getBlockZ());
             if((b.getType() == Material.CRYING_OBSIDIAN) || (b.getType() == Material.GILDED_BLACKSTONE))

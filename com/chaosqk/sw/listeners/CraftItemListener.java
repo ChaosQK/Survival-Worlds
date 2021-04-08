@@ -31,7 +31,7 @@ public class CraftItemListener implements Listener {
             this.plugin.createWorld(worldName);
             Bukkit.broadcastMessage("§4§l§k|||§r §3A §6§lWorld Core §3has been crafted ! §r§4§l§k|||");
             for(Player p : Bukkit.getOnlinePlayers())
-                p.playSound(p.getLocation(), Sound.ENTITY_ENDER_DRAGON_GROWL, 100f, 0f);
+                p.playSound(p.getLocation(), Sound.ENTITY_ENDER_DRAGON_GROWL, 60f, 0f);
         }
     }
 

@@ -225,7 +225,7 @@ public class SWorlds extends JavaPlugin {
     {
         String[] coords = ((String)this.config.get(portalName).get("coreBlock")).split(", ");
         int x = Integer.parseInt(coords[0]), y = Integer.parseInt(coords[1]), z = Integer.parseInt(coords[2]);
-        return Bukkit.getWorld("world").getBlockAt(x, y, z);
+        return Bukkit.getWorlds().get(0).getBlockAt(x, y, z);
     }
 
     public boolean isBlockPortalCore(Block block)

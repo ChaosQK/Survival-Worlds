@@ -28,7 +28,7 @@ public class ParticuleLoop {
                     double y = (double)(Integer.parseInt(pos[1]))+0.5;
                     double z = (double)(Integer.parseInt(pos[2]))+0.5;
 
-                    Bukkit.getWorld("world").spawnParticle(Particle.CLOUD, x, y, z, 0);
+                    Bukkit.getWorlds().get(0).spawnParticle(Particle.CLOUD, x, y, z, 0);
                 }
             }
         }, 0L, 10L);
