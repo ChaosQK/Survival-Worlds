@@ -1,0 +1,5 @@
+name: SurvivalWorlds
+author: ChaosQK
+version: 1.0.0
+main: com.chaosqk.sw.SWorlds
+api-version: 1.16

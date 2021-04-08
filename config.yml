@@ -1,0 +1,18 @@
+portalNumbers: []
+
+portals: []
+
+coreBlocks: []
+
+worlds: []
+
+# exemple :
+# portals:
+#   portal1:
+#
+#     blockCoords: ["989, 74, 21", "990, 74, 21", "991, 74, 21"]
+#     portalPos: [[989, 74, 21], [991, 76, 21]]
+#     targetWorld: world1
+#     targetPos: [1000, 74, 23]
+#     coreBlock: [x, y, z]
+#     isActive: true/false
